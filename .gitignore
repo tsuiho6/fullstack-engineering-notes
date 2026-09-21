@@ -1,0 +1,28 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Go
+bin/
+*.test
+coverage.out
+
+# Node.js / frontend
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+.tmp/
+tmp/
