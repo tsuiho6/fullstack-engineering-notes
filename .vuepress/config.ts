@@ -11,5 +11,10 @@ export default defineUserConfig({
   description: "记录全栈工程学习路径与实践验证。",
   bundler: viteBundler(),
   theme,
-  pagePatterns: ["**/*.md", "!**/node_modules/**", "!.vuepress"],
+  pagePatterns: [
+    "**/*.md",
+    "!**/node_modules/**",
+    "!.vuepress",
+    "!README.md",
+  ],
 });
