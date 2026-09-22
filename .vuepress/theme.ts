@@ -51,8 +51,5 @@ export default hopeTheme({
     readingTime: {
       wordPerMinute: 300,
     },
-    slimsearch: {
-      indexContent: true,
-    },
   },
 });
