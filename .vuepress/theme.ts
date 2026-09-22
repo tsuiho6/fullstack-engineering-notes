@@ -15,7 +15,7 @@ export default hopeTheme({
     { text: "学习路线", link: "/" },
     { text: "Go 工程", link: "/go_note/Go语言简明教程.md" },
     {
-      text: "Go 面试主干",
+      text: "Go面试题",
       link: "/go_note/Go语言笔试面试题/00-总目录与学习路线.md",
     },
     { text: "数据结构与算法", link: "/hello_go/hello-algo-数据结构笔记/README.md" },
@@ -40,7 +40,7 @@ export default hopeTheme({
         ],
       },
       {
-        text: "Go 面试主干：核心主干 + 最小闭环",
+        text: "Go面试题",
         prefix: "/go_note/Go语言笔试面试题/",
         collapsible: true,
         children: [
