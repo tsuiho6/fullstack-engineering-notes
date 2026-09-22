@@ -31,8 +31,9 @@ body {
   background: var(--vp-c-bg-alt);
   color: var(--vp-c-text);
   font-family: var(--vp-font-family);
-  font-size: 16px;
-  letter-spacing: -0.006em;
+  font-size: 16.5px;
+  letter-spacing: normal;
+  font-kerning: normal;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -64,7 +65,7 @@ a:hover {
   color: #1d1d1f !important;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: normal;
   outline: none !important;
   border: 0 !important;
   box-shadow: none !important;
@@ -84,9 +85,9 @@ a:hover {
 .vp-navbar-item > a {
   border-radius: 999px;
   color: #6e6e73;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
-  padding: 8px 13px;
+  padding: 9px 13px;
 }
 
 .vp-navbar-item > a:hover {
@@ -122,10 +123,10 @@ a:hover {
 .vp-sidebar-link {
   border-radius: 9px !important;
   color: #6e6e73 !important;
-  font-size: 14px;
-  line-height: 1.45;
-  margin: 3px 0;
-  padding: 8px 12px !important;
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 4px 0;
+  padding: 9px 12px !important;
   transition: background-color 160ms ease, color 160ms ease;
 }
 
@@ -153,20 +154,26 @@ a:hover {
 .vp-page-title {
   color: #1d1d1f !important;
   font-size: clamp(2.25rem, 4.2vw, 3.55rem) !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.055em;
-  line-height: 1.08 !important;
-  margin-bottom: 20px !important;
+  font-weight: 600 !important;
+  letter-spacing: normal;
+  line-height: 1.24 !important;
+  margin-bottom: 22px !important;
 }
 
 .vp-breadcrumb {
   color: #86868b !important;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .vp-page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  align-items: center;
   color: #86868b !important;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .vp-content {
@@ -182,7 +189,7 @@ a:hover {
 
 .vp-content p,
 .vp-content li {
-  line-height: 1.82;
+  line-height: 1.95;
 }
 
 .vp-content h2 {
@@ -190,18 +197,19 @@ a:hover {
   color: #1d1d1f;
   font-size: clamp(1.7rem, 3vw, 2.25rem);
   font-weight: 650;
-  letter-spacing: -0.04em;
-  line-height: 1.2;
-  margin-top: 4.6rem;
-  padding-bottom: 14px;
+  letter-spacing: normal;
+  line-height: 1.35;
+  margin-top: 5.2rem;
+  padding-bottom: 16px;
 }
 
 .vp-content h3 {
   color: #1d1d1f;
   font-size: 1.35rem;
-  font-weight: 650;
-  letter-spacing: -0.025em;
-  margin-top: 3rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.35;
+  margin-top: 3.4rem;
 }
 
 .vp-content strong {
@@ -247,8 +255,8 @@ a:hover {
 
 .vp-toc-link {
   color: #86868b !important;
-  font-size: 13px;
-  line-height: 1.55;
+  font-size: 14px;
+  line-height: 1.85;
 }
 
 .vp-toc-link.active {
