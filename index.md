@@ -28,7 +28,7 @@ Web / ORM 工程
 性能分析与项目化验证
 ```
 
-推荐从 [Go 语言简明教程](/go_note/Go语言简明教程) 开始，然后用 [Go 面试主干复习](/go_note/Go程序员面试笔试宝典-高效复习笔记/00-总目录与学习路线) 串起语言、运行时和并发，再阅读 [数据结构笔记](/hello_go/hello-algo-数据结构笔记/README) 和 [算法笔记](/hello_go/hello-algo-算法高效笔记/README)。
+推荐从 [Go 语言简明教程](/go_note/Go语言简明教程) 开始，然后用 [Go 面试主干复习](/go_note/Go语言笔试面试题/00-总目录与学习路线) 串起语言、运行时和并发，再阅读 [数据结构笔记](/hello_go/hello-algo-数据结构笔记/README) 和 [算法笔记](/hello_go/hello-algo-算法高效笔记/README)。
 
 ## 当前内容
 
@@ -36,12 +36,11 @@ Web / ORM 工程
 
 - [Go 语言简明教程](/go_note/Go语言简明教程)
 - [Go 高性能编程](/go_note/Go语言高性能编程/Go语言高性能编程-总目录与最小闭环)
-- [Go 面试主干复习](/go_note/Go程序员面试笔试宝典-高效复习笔记/00-总目录与学习路线)
+- [Go 面试主干复习](/go_note/Go语言笔试面试题/00-总目录与学习路线)
 - [Gee Web 框架](/go_note/Go-Gee框架高效笔记/00-总目录与学习路线)
 - [GeeORM](/go_note/Go-GeeORM高效笔记/00-总目录与最小闭环)
 - [GeeCache](/go_note/GeeCache高效笔记/00-总目录与最小闭环)
 - [GeeRPC](/go_note/GeeRPC高效笔记/00-总目录与最小闭环)
-- [Go 语言笔试面试题](/go_note/Go语言笔试面试题/00-总目录与学习路线)
 
 ### 数据结构与算法
 
