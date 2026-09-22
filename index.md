@@ -26,7 +26,6 @@ Web / ORM 工程
 
 - [Go 语言简明教程](/go_note/Go语言简明教程)
 - [Go 高性能编程](/go_note/Go语言高性能编程/Go语言高性能编程-总目录与最小闭环)
-- [Go 面试主干复习](/go_note/Go语言笔试面试题/00-总目录与学习路线)
 - [Gee Web 框架](/go_note/Go-Gee框架高效笔记/00-总目录与学习路线)
 - [GeeORM](/go_note/Go-GeeORM高效笔记/00-总目录与最小闭环)
 - [GeeCache](/go_note/GeeCache高效笔记/00-总目录与最小闭环)
