@@ -18,6 +18,7 @@ dist/
 build/
 *.tsbuildinfo
 .vitepress/cache/
+.vuepress/.temp/
 
 # Local configuration and secrets
 .env
