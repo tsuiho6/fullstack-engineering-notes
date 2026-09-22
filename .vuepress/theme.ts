@@ -97,6 +97,33 @@ const algorithmPages = [
   page("07 跨章节综合问答", "/hello_go/hello-algo-算法高效笔记/07-跨章节综合问答.md"),
 ];
 
+const frontEndCorePages = [
+  page("学习路线", "/前端与全栈/README.md"),
+  page("JavaScript 基础", "/前端与全栈/01-JavaScript基础/README.md"),
+  page("TypeScript", "/前端与全栈/02-TypeScript/README.md"),
+  page("React", "/前端与全栈/03-React/README.md"),
+  page("Next.js 总览", "/前端与全栈/04-Next.js/README.md"),
+];
+
+const nextCorePages = [
+  page("00 心智模型与学习路线", "/前端与全栈/04-Next.js/00-心智模型与学习路线.md"),
+  page("01 App Router 与 app 目录", "/前端与全栈/04-Next.js/01-App-Router与app目录.md"),
+  page("02 page、layout 与动态路由", "/前端与全栈/04-Next.js/02-page-layout与动态路由.md"),
+  page("03 Server 与 Client 组件", "/前端与全栈/04-Next.js/03-Server与Client组件.md"),
+  page("04 数据获取、缓存与重新验证", "/前端与全栈/04-Next.js/04-数据获取缓存与重新验证.md"),
+  page("05 加载、错误、404 与流式渲染", "/前端与全栈/04-Next.js/05-加载错误404与流式渲染.md"),
+  page("06 Route Handlers 与 Server Actions", "/前端与全栈/04-Next.js/06-Route-Handlers与Server-Actions.md"),
+];
+
+const fullStackPages = [
+  page("07 表单、认证、授权与环境变量", "/前端与全栈/04-Next.js/07-表单认证授权与环境变量.md"),
+  page("08 PostgreSQL 与数据访问层", "/前端与全栈/04-Next.js/08-PostgreSQL与数据访问层.md"),
+  page("09 部署与生产环境", "/前端与全栈/04-Next.js/09-部署与生产环境.md"),
+  page("10 AI 流式响应", "/前端与全栈/04-Next.js/10-AI流式响应.md"),
+  page("11 项目最小闭环", "/前端与全栈/04-Next.js/11-项目最小闭环.md"),
+  page("12 跨章节综合问答", "/前端与全栈/04-Next.js/12-跨章节综合问答.md"),
+  page("当前版本缓存 API 补充", "/前端与全栈/04-Next.js/补充-当前版本缓存API.md"),
+];
 export default hopeTheme({
   hostname: "https://tsuiho6.github.io/fullstack-engineering-notes/",
   logo: "/cow-icon.png",
@@ -110,6 +137,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Date", "ReadingTime"],
   navbar: [
     { text: "学习路线", link: "/" },
+    { text: "前端与全栈", link: "/前端与全栈/README.md" },
     { text: "Go 基础", link: "/go_note/Go语言简明教程.md" },
     { text: "Go 工程", link: "/go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md" },
     {
@@ -123,6 +151,23 @@ export default hopeTheme({
       {
         text: "开始阅读",
         children: [page("学习路线总览", "/")],
+      },
+      {
+        text: "前端与全栈",
+        collapsible: true,
+        children: [
+          ...frontEndCorePages,
+          {
+            text: "Next.js 核心",
+            collapsible: true,
+            children: nextCorePages,
+          },
+          {
+            text: "全栈与 AI 扩展",
+            collapsible: true,
+            children: fullStackPages,
+          },
+        ],
       },
       {
         text: "Go 基础",

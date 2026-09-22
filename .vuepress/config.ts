@@ -14,6 +14,8 @@ export default defineUserConfig({
   pagePatterns: [
     "**/*.md",
     "!**/node_modules/**",
+    "!学习笔记-TS-React-Next/**",
+    "!JavaScript-核心学习笔记/**",
     "!.vuepress",
     "!README.md",
   ],

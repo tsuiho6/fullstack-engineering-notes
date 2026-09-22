@@ -4,7 +4,7 @@
 
 这是我的个人学习整理仓库，记录从基础概念、最小实现到测试验证的学习过程。仓库中的 Markdown 文件是原始笔记，网站提供更适合连续阅读的目录、侧栏和文章页面。
 
-当前内容以 Go、数据结构与算法为主，后续逐步扩展到：
+当前内容以 Go、数据结构与算法为主，前端与全栈内容已开始按 JavaScript → TypeScript → React → Next.js 逐步整理，后续再扩展到：
 
 > Go 后端 + TypeScript/React 前端 + LLM/Agent 工程 + AI 辅助开发与验证
 
@@ -28,6 +28,31 @@
 |---|---|---|
 | 数据结构 | 数组/切片、链表、栈队列、哈希表、树、堆、图与 Go 语义 | [数据结构高效笔记](hello_go/hello-algo-数据结构笔记/README.md) |
 | 算法 | 二分、排序、分治、回溯、动态规划、贪心与综合训练 | [算法高效笔记](hello_go/hello-algo-算法高效笔记/README.md) |
+
+## 前端与全栈
+
+前端与全栈部分按以下顺序整理：
+
+~~~text
+JavaScript
+    ↓
+TypeScript
+    ↓
+React
+    ↓
+Next.js 核心
+    ↓
+PostgreSQL、认证、部署与 AI 应用
+~~~
+
+统一入口：[前端与全栈学习路线](前端与全栈/README.md)
+
+- [JavaScript 基础](前端与全栈/01-JavaScript基础/README.md)
+- [TypeScript](前端与全栈/02-TypeScript/README.md)
+- [React](前端与全栈/03-React/README.md)
+- [Next.js](前端与全栈/04-Next.js/README.md)
+
+Next.js 的 PostgreSQL、认证、部署和 AI 流式内容属于全栈应用扩展，不作为 React 或 Next.js 核心语法的前置条件。
 
 ## 推荐学习顺序
 
