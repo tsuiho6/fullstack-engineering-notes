@@ -20,6 +20,7 @@
 |---|---|---|
 | Go 语言主干 | 语法、值模型、错误、接口、并发、生命周期与最小项目闭环 | [Go 语言简明教程](go_note/Go语言简明教程.md) |
 | Go 高性能编程 | 性能分析、性能实验、内存局部性、并发资源治理、编译器优化 | [总目录与最小闭环](go_note/Go语言高性能编程/Go语言高性能编程-总目录与最小闭环.md) |
+| Go 面试主干复习 | 切片与 map、接口、并发、context、编译器、调度器、GC 与 unsafe | [高效复习笔记](go_note/Go程序员面试笔试宝典-高效复习笔记/00-总目录与学习路线.md) |
 | Go Web 框架 | HTTP 入口、Context、Trie 路由、分组、中间件、模板、恢复机制 | [Gee 框架高效笔记](go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md) |
 | Go ORM | `database/sql`、Schema、Dialect、CRUD、事务、Hooks、迁移 | [GeeORM 高效笔记](go_note/Go-GeeORM高效笔记/00-总目录与最小闭环.md) |
 | 分布式缓存 | LRU、并发缓存、一致性哈希、远程回源、singleflight、Protobuf | [GeeCache 高效笔记](go_note/GeeCache高效笔记/00-总目录与最小闭环.md) |
@@ -52,10 +53,11 @@ GeeCache / GeeRPC
 对应入口：
 
 1. 先读 [Go 语言简明教程](go_note/Go语言简明教程.md)，建立值、错误、接口和并发的基本模型。
-2. 再读 [数据结构](hello_go/hello-algo-数据结构笔记/README.md) 与 [算法](hello_go/hello-algo-算法高效笔记/README.md)，训练从约束反推结构和算法。
-3. 用 [Gee 框架](go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md) 和 [GeeORM](go_note/Go-GeeORM高效笔记/00-总目录与最小闭环.md) 理解后端请求与数据访问的基本闭环。
-4. 用 [GeeCache](go_note/GeeCache高效笔记/00-总目录与最小闭环.md) 和 [GeeRPC](go_note/GeeRPC高效笔记/00-总目录与最小闭环.md) 进入缓存、分布式通信和服务治理。
-5. 最后用 [Go 高性能编程](go_note/Go语言高性能编程/Go语言高性能编程-总目录与最小闭环.md) 做测量、基准和交付检查。
+2. 用 [Go 面试主干复习](go_note/Go程序员面试笔试宝典-高效复习笔记/00-总目录与学习路线.md) 把语言、运行时和并发知识串成可主动回忆的骨架。
+3. 再读 [数据结构](hello_go/hello-algo-数据结构笔记/README.md) 与 [算法](hello_go/hello-algo-算法高效笔记/README.md)，训练从约束反推结构和算法。
+4. 用 [Gee 框架](go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md) 和 [GeeORM](go_note/Go-GeeORM高效笔记/00-总目录与最小闭环.md) 理解后端请求与数据访问的基本闭环。
+5. 用 [GeeCache](go_note/GeeCache高效笔记/00-总目录与最小闭环.md) 和 [GeeRPC](go_note/GeeRPC高效笔记/00-总目录与最小闭环.md) 进入缓存、分布式通信和服务治理。
+6. 最后用 [Go 高性能编程](go_note/Go语言高性能编程/Go语言高性能编程-总目录与最小闭环.md) 做测量、基准和交付检查。
 
 面试题笔记适合作为阶段性复习和自测，不作为主线的替代品。
 
