@@ -12,7 +12,7 @@ export default hopeTheme({
   contributors: false,
   pageInfo: ["Author", "Date", "ReadingTime"],
   navbar: [
-    { text: "学习路线", link: "/README.md" },
+    { text: "学习路线", link: "/" },
     { text: "Go 工程", link: "/go_note/Go语言简明教程.md" },
     { text: "数据结构与算法", link: "/hello_go/hello-algo-数据结构笔记/README.md" },
   ],
@@ -20,7 +20,7 @@ export default hopeTheme({
     "/": [
       {
         text: "开始阅读",
-        children: ["/README.md"],
+        children: ["/"],
       },
       {
         text: "Go 基础与工程",
