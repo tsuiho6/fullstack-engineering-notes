@@ -2,7 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
   hostname: "https://tsuiho6.github.io/fullstack-engineering-notes/",
-  logo: "/favicon.svg",
+  logo: "/cow-icon.png",
   repo: "tsuiho6/fullstack-engineering-notes",
   docsDir: "/",
   author: "tsuiho6",
