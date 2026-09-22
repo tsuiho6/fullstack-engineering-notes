@@ -773,3 +773,173 @@ html[data-theme="dark"] .vp-toggle-sidebar-button,
 html[data-theme="dark"] .vp-navbar-dropdown-wrapper .dropdown-title {
   color: #f8f8f2;
 }
+
+
+/* Dracula reading polish: clearer hierarchy and more breathing room. */
+html[data-theme="dark"] #app,
+html[data-theme="dark"] .theme-container,
+html[data-theme="dark"] .vp-page {
+  background: #282a36 !important;
+}
+
+html[data-theme="dark"] .vp-content {
+  color: #f8f8f2;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+html[data-theme="dark"] .vp-content h1 {
+  color: #f8f8f2;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+html[data-theme="dark"] .vp-content h2 {
+  position: relative;
+  border-bottom: 1px solid #44475a !important;
+  color: #f8f8f2;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-top: 3.2rem;
+  padding-bottom: 0.65rem;
+}
+
+html[data-theme="dark"] .vp-content h2::after {
+  position: absolute;
+  right: auto;
+  bottom: -1px;
+  left: 0;
+  width: 46px;
+  height: 2px;
+  background: #ff79c6;
+  content: "";
+}
+
+html[data-theme="dark"] .vp-content h3 {
+  color: #f8f8f2;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 2.4rem;
+}
+
+html[data-theme="dark"] .vp-content p {
+  color: #e6e6e9;
+  line-height: 1.9;
+}
+
+html[data-theme="dark"] .vp-content ul,
+html[data-theme="dark"] .vp-content ol {
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+  padding-left: 1.5rem;
+}
+
+html[data-theme="dark"] .vp-content li {
+  color: #e6e6e9;
+  line-height: 1.85;
+  margin: 0.28rem 0;
+}
+
+html[data-theme="dark"] .vp-content li::marker {
+  color: #ff79c6;
+}
+
+html[data-theme="dark"] .vp-content a {
+  color: #8be9fd;
+  text-decoration-color: rgba(139, 233, 253, 0.45);
+  text-underline-offset: 0.18em;
+}
+
+html[data-theme="dark"] .vp-content a:hover {
+  color: #ff79c6;
+  text-decoration-color: #ff79c6;
+}
+
+html[data-theme="dark"] .vp-content strong {
+  color: #ffb86c !important;
+  font-weight: 600;
+}
+
+html[data-theme="dark"] .vp-content hr {
+  border: 0;
+  border-top: 1px solid #44475a !important;
+  margin: 2.5rem 0;
+}
+
+html[data-theme="dark"] .vp-content blockquote {
+  border-left: 3px solid #bd93f9;
+  border-radius: 6px;
+  background: rgba(98, 114, 164, 0.12);
+  color: #c4c6d0;
+  margin: 1.5rem 0;
+  padding: 0.85rem 1.1rem;
+}
+
+html[data-theme="dark"] .vp-content code:not(pre code) {
+  border: 1px solid #44475a;
+  border-radius: 5px;
+  background: #343746;
+  color: #ffb86c;
+  padding: 0.12em 0.34em;
+}
+
+html[data-theme="dark"] .vp-content div[class*="language-"] {
+  border: 1px solid #44475a;
+  border-radius: 10px;
+  background: #21222c;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  margin: 1.4rem 0 1.8rem;
+}
+
+html[data-theme="dark"] .vp-content div[class*="language-"] code {
+  color: #f8f8f2;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+html[data-theme="dark"] .vp-sidebar-heading {
+  color: #f8f8f2 !important;
+  font-weight: 500;
+}
+
+html[data-theme="dark"] .vp-sidebar-link {
+  color: #c4c6d0 !important;
+  line-height: 1.7;
+}
+
+html[data-theme="dark"] .vp-sidebar-link.active {
+  background: rgba(255, 121, 198, 0.16) !important;
+  color: #ff79c6 !important;
+}
+
+html[data-theme="dark"] .vp-toc {
+  border-left-color: #44475a !important;
+}
+
+html[data-theme="dark"] .vp-toc-link {
+  color: #b9bbc7 !important;
+  line-height: 1.8;
+}
+
+html[data-theme="dark"] .vp-toc-link.active {
+  color: #ff79c6 !important;
+}
+
+html[data-theme="dark"] .vp-page-title {
+  color: #f8f8f2 !important;
+  font-weight: 600 !important;
+}
+
+html[data-theme="dark"] .vp-breadcrumb,
+html[data-theme="dark"] .vp-page-meta {
+  color: #bdc0cb !important;
+}
+
+html[data-theme="dark"] ::selection {
+  background: rgba(255, 121, 198, 0.3);
+}
