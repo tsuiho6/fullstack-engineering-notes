@@ -190,11 +190,11 @@ export default hopeTheme({
   navbar: [
     { text: "学习路线", link: "/" },
     { text: "前端与全栈", link: "/前端与全栈/README.md" },
-    { text: "Go 基础", link: "/go_note/Go语言简明教程.md" },
+    { text: "Go 语言基础", link: "/go_note/Go语言简明教程.md" },
     { text: "Go 后端基本功", link: "/Go后端基本功/README.md" },
-    { text: "Go 工程", link: "/go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md" },
+    { text: "Go 框架实践", link: "/go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md" },
     {
-      text: "Go 面试题",
+      text: "Go 面试复习",
       link: "/go_note/Go语言笔试面试题/00-总目录与学习路线.md",
     },
     { text: "数据结构与算法", link: "/hello_go/hello-algo-数据结构笔记/README.md" },
@@ -223,7 +223,7 @@ export default hopeTheme({
         ],
       },
       {
-        text: "Go 基础",
+        text: "Go 语言基础",
         collapsible: true,
         children: [page("Go 语言简明教程", "/go_note/Go语言简明教程.md")],
       },
@@ -236,7 +236,7 @@ export default hopeTheme({
         ],
       },
       {
-        text: "Go 工程专题",
+        text: "Go 高性能编程",
         collapsible: true,
         children: [
           page("Go 高性能编程：总目录", "/go_note/Go语言高性能编程/Go语言高性能编程-总目录与最小闭环.md"),
@@ -247,7 +247,7 @@ export default hopeTheme({
         ],
       },
       {
-        text: "四个 7 天项目",
+        text: "Go 项目实战",
         collapsible: true,
         children: [
           { text: "Gee Web 框架", collapsible: true, children: goWebPages },
@@ -257,7 +257,7 @@ export default hopeTheme({
         ],
       },
       {
-        text: "Go 面试题",
+        text: "Go 面试复习",
         collapsible: true,
         children: goInterviewPages,
       },
