@@ -124,6 +124,58 @@ const fullStackPages = [
   page("12 跨章节综合问答", "/前端与全栈/04-Next.js/12-跨章节综合问答.md"),
   page("当前版本缓存 API 补充", "/前端与全栈/04-Next.js/补充-当前版本缓存API.md"),
 ];
+const goBasicsSections = [
+  {
+    text: "网络与 HTTP",
+    collapsible: true,
+    children: [
+      page("章节总览", "/Go后端基本功/01-网络与HTTP/README.md"),
+      page("01 请求链路", "/Go后端基本功/01-网络与HTTP/01-请求链路.md"),
+      page("02 HTTP 语义与连接", "/Go后端基本功/01-网络与HTTP/02-HTTP语义与连接.md"),
+      page("03 Go 网络调用与排障", "/Go后端基本功/01-网络与HTTP/03-Go网络调用与排障.md"),
+    ],
+  },
+  {
+    text: "业务 API",
+    collapsible: true,
+    children: [
+      page("章节总览", "/Go后端基本功/02-业务API/README.md"),
+      page("01 资源与 HTTP 语义", "/Go后端基本功/02-业务API/01-资源与HTTP语义.md"),
+      page("02 Go Handler 与分层", "/Go后端基本功/02-业务API/02-GoHandler与分层.md"),
+      page("03 错误、权限与幂等", "/Go后端基本功/02-业务API/03-错误权限幂等与闭环.md"),
+    ],
+  },
+  {
+    text: "Go 测试",
+    collapsible: true,
+    children: [
+      page("章节总览", "/Go后端基本功/03-Go测试/README.md"),
+      page("01 测试结构与表驱动", "/Go后端基本功/03-Go测试/01-测试结构与表驱动.md"),
+      page("02 Handler 测试与依赖隔离", "/Go后端基本功/03-Go测试/02-Handler测试与依赖隔离.md"),
+      page("03 集成、竞态与验证闭环", "/Go后端基本功/03-Go测试/03-集成竞态与验证闭环.md"),
+    ],
+  },
+  {
+    text: "Linux",
+    collapsible: true,
+    children: [
+      page("章节总览", "/Go后端基本功/04-Linux/README.md"),
+      page("01 Shell、文件与权限", "/Go后端基本功/04-Linux/01-Shell文件与权限.md"),
+      page("02 进程、服务与日志", "/Go后端基本功/04-Linux/02-进程服务与日志.md"),
+      page("03 资源、网络与排障", "/Go后端基本功/04-Linux/03-资源网络与故障排查.md"),
+    ],
+  },
+  {
+    text: "Git",
+    collapsible: true,
+    children: [
+      page("章节总览", "/Go后端基本功/05-Git/README.md"),
+      page("01 快照、暂存区与提交", "/Go后端基本功/05-Git/01-快照暂存区与日常提交.md"),
+      page("02 分支、合并与冲突", "/Go后端基本功/05-Git/02-分支合并与冲突.md"),
+      page("03 远端协作与安全撤销", "/Go后端基本功/05-Git/03-远端协作与安全撤销.md"),
+    ],
+  },
+];
 export default hopeTheme({
   hostname: "https://tsuiho6.github.io/fullstack-engineering-notes/",
   logo: "/cow-icon.png",
@@ -139,6 +191,7 @@ export default hopeTheme({
     { text: "学习路线", link: "/" },
     { text: "前端与全栈", link: "/前端与全栈/README.md" },
     { text: "Go 基础", link: "/go_note/Go语言简明教程.md" },
+    { text: "Go 后端基本功", link: "/Go后端基本功/README.md" },
     { text: "Go 工程", link: "/go_note/Go-Gee框架高效笔记/00-总目录与学习路线.md" },
     {
       text: "Go 面试题",
@@ -173,6 +226,14 @@ export default hopeTheme({
         text: "Go 基础",
         collapsible: true,
         children: [page("Go 语言简明教程", "/go_note/Go语言简明教程.md")],
+      },
+      {
+        text: "Go 后端基本功",
+        collapsible: true,
+        children: [
+          page("总目录与最小闭环", "/Go后端基本功/README.md"),
+          ...goBasicsSections,
+        ],
       },
       {
         text: "Go 工程专题",
