@@ -225,7 +225,19 @@ export default hopeTheme({
       {
         text: "Go 语言基础",
         collapsible: true,
-        children: [page("Go 语言简明教程", "/go_note/Go语言简明教程.md")],
+        children: [
+          page("总览与学习路线", "/go_note/Go语言简明教程.md"),
+          page("01 模块、包与工具链", "/go_note/Go语言简明教程/01-模块、包与工具链.md"),
+          page("02 变量、常量与基本类型", "/go_note/Go语言简明教程/02-变量、常量与基本类型.md"),
+          page("03 字符串、数组、切片、map 与指针", "/go_note/Go语言简明教程/03-字符串、数组、切片、map与指针.md"),
+          page("04 流程控制、函数与错误处理", "/go_note/Go语言简明教程/04-流程控制、函数与错误处理.md"),
+          page("05 结构体、方法、接口与类型断言", "/go_note/Go语言简明教程/05-结构体、方法、接口与类型断言.md"),
+          page("06 泛型与类型约束", "/go_note/Go语言简明教程/06-泛型与类型约束.md"),
+          page("07 反射：Type、Value 与边界", "/go_note/Go语言简明教程/07-反射-Type-Value与边界.md"),
+          page("08 并发、channel 与 context", "/go_note/Go语言简明教程/08-并发、channel与context.md"),
+          page("09 测试与验证", "/go_note/Go语言简明教程/09-测试与验证.md"),
+          page("10 最小项目闭环与综合复习", "/go_note/Go语言简明教程/10-最小项目闭环与综合复习.md"),
+        ],
       },
       {
         text: "Go 后端基本功",
